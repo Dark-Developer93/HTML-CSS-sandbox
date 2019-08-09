@@ -1,327 +1,267 @@
 html {
+  margin: 0;
 
-	margin: 0;
-
-	padding: 0;
-
+  padding: 0;
 }
 
 body {
+  font-family: "Handlee", cursive;
 
-	font-family: 'Handlee', cursive;
+  font-size: 13pt;
 
-	font-size: 13pt;
+  background-color: #efefef;
 
-	background-color: #efefef;
+  padding: 10px;
 
-	padding: 10px;
-
-	margin: 0;
-
+  margin: 0;
 }
 
 h1 {
+  font-size: 15pt;
 
-	font-size: 15pt;
+  color: #20bcd5;
 
-	color: #20bcd5;
+  text-align: center;
 
-	text-align: center;
+  padding: 18px 0 18px 0;
 
-	padding: 18px 0 18px 0;
-
-	margin: 0 0 10px 0;
-
+  margin: 0 0 10px 0;
 }
 
 h1 span {
+  border: 4px dashed #20bcd5;
 
-	border: 4px dashed #20bcd5;
-
-	padding: 10px;
-
+  padding: 10px;
 }
 
 p {
+  padding: 0;
 
-	padding: 0;
-
-	margin: 0;
-
+  margin: 0;
 }
 
 .img-circle {
+  border: 3px solid white;
 
-	border: 3px solid white;
-
-	border-radius: 50%;
-
+  border-radius: 50%;
 }
 
 .section {
+  background-color: #fff;
 
-	background-color: #fff;
+  padding: 15px;
 
-	padding: 15px;
+  margin-bottom: 10px;
 
-	margin-bottom: 10px;
-
-	border-radius: 10px;
-
+  border-radius: 10px;
 }
 
 #header {
+  background-image: url("https://www.sololearn.com/Uploads/header.jpg");
 
-	background-image: url("https://www.sololearn.com/Uploads/header.jpg");
-
-	background-size: cover;
-
+  background-size: cover;
 }
 
 #header img {
+  display: block;
 
-	display: block;
+  width: 40px;
 
-	width: 80px;
+  height: 40px;
 
-	height: 80px;
-
-	margin: auto;
-
+  margin: auto;
 }
 
 #header p {
+  font-size: 25pt;
 
-	font-size: 25pt;
+  color: #3b464c;
 
-	color: #3b464c;
+  padding-top: 5px;
 
-	padding-top: 5px;
+  margin: 0;
 
-	margin: 0;
+  font-weight: bold;
 
-	font-weight: bold;
-
-	text-align: center;
-
+  text-align: center;
 }
 
 .quote {
+  font-size: 12pt;
 
-	font-size: 12pt;
+  text-align: right;
 
-	text-align: right;
-
-	margin-top: 10px;
-
+  margin-top: 10px;
 }
 
 table {
+  width: 100%;
 
-	width: 100%;
-
-	font-size: 11pt;
-
+  font-size: 11pt;
 }
 
-table, th, td {
+table,
+th,
+td {
+  border: 2px solid #cecece;
 
-	border: 2px solid #cecece;
+  border-collapse: collapse;
 
-	border-collapse: collapse;
+  text-align: center;
 
-	text-align: center;
-
-	table-layout: fixed;
-
+  table-layout: fixed;
 }
 
 .selected {
+  background-color: #f36f48;
 
-	background-color: #f36f48;
+  font-weight: bold;
 
-	font-weight: bold;
-
-	color: white;
-
+  color: white;
 }
 
 li {
+  margin-bottom: 15px;
 
-	margin-bottom: 15px;
-
-	font-weight: bold;
-
+  font-weight: bold;
 }
 
 progress {
+  width: 70%;
 
-	width: 70%;
+  height: 20px;
 
-	height: 20px;
+  color: #3fb6b2;
 
-	color: #3fb6b2;
-
-	background: #efefef;
-
+  background: #efefef;
 }
 
 progress::-webkit-progress-bar {
-
-	background: #efefef;
-
+  background: #efefef;
 }
 
 progress::-webkit-progress-value {
-
-	background: #3fb6b2;
-
-} 
-
-progress::-moz-progress-bar {
-
-	color: #3fb6b2;
-
-	background: #efefef;
-
+  background: #3fb6b2;
 }
 
-iframe, audio {
+progress::-moz-progress-bar {
+  color: #3fb6b2;
 
-	display: block;
+  background: #efefef;
+}
 
-	margin: 0 auto;
+iframe,
+audio {
+  display: block;
 
-	border: 3px solid #3fb6b2;
+  margin: 0 auto;
 
+  border: 3px solid #3fb6b2;
 }
 
 hr {
+  border: 0;
 
-	border: 0;
+  height: 1px;
 
-	height: 1px;
-
-	background: #f36f48;
-
+  background: #f36f48;
 }
 
 form {
+  text-align: center;
 
-	text-align: center;
-
-	margin-top: 0;
-
+  margin-top: 0;
 }
 
 .submit {
+  background-color: #3fb6b2;
 
-	background-color: #3fb6b2;
+  padding: 12px 45px;
 
-	padding: 12px 45px;
+  border-radius: 5px;
 
-	border-radius: 5px;
+  cursor: pointer;
 
-	cursor: pointer;
+  color: #ffffff;
 
-	color: #ffffff;
+  border: none;
 
-	border: none;
+  outline: none;
 
-	outline: none;
+  margin: 0;
 
-	margin: 0;
-
-	font-weight: bold;
-
+  font-weight: bold;
 }
 
 .submit:hover {
-
-	background-color: #43a09d;
-
+  background-color: #43a09d;
 }
 
 textarea {
-
-	height: 100px;
-
+  height: 100px;
 }
 
-input, textarea {
+input,
+textarea {
+  margin-bottom: 10px;
 
-	margin-bottom: 10px;
+  font-size: 11pt;
 
-	font-size: 11pt;
+  padding: 15px 10px 10px;
 
-	padding: 15px 10px 10px;
+  border: 1px solid #cecece;
 
-	border: 1px solid #cecece;
+  background-color: #efefef;
 
-	background-color: #efefef;
+  color: #787575;
 
-	color: #787575;
+  border-radius: 5px;
 
-	border-radius: 5px;
+  width: 70%;
 
-	width: 70%;
-
-	outline: none;
-
+  outline: none;
 }
 
 .face {
+  transform: scale(0.4);
 
-	transform: scale(0.4);
+  margin: 0 auto;
 
-	margin: 0 auto;
+  display: block;
 
-	display: block;
+  margin-top: -35px;
 
-	margin-top: -35px;
-
-	margin-bottom: -25px;
-
+  margin-bottom: -25px;
 }
 
 #contacts img {
+  height: 50px;
 
-	height: 50px;
+  width: 50px;
 
-	width: 50px;
+  margin-left: 7px;
 
-	margin-left: 7px;
-
-	margin-right: 7px;
-
+  margin-right: 7px;
 }
 
 #contacts a {
-
-	text-decoration: none;
-
+  text-decoration: none;
 }
 
 #contacts img:hover {
-
-	opacity: 0.8;
-
+  opacity: 0.8;
 }
 
 #contacts {
-
-	text-align: center;
-
+  text-align: center;
 }
 
 .copyright {
+  font-size: 8pt;
 
-	font-size: 8pt;
+  text-align: right;
 
-	text-align: right;
+  padding-bottom: 10px;
 
-	padding-bottom: 10px;
-
-	color: grey;
-
+  color: grey;
 }
